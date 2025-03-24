@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soundwave</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="test.js"></script>
+</head>
+<body>
+    <header>Soundwave</header>
+
+        <!-- Modal a választáshoz -->
+    <div id="modeModal" class="modal">
+        <div class="modal-content">
+        <h2>Válassz módot</h2>
+        <button onclick="setLightMode()">Világos mód</button>
+        <button onclick="setDarkMode()">Sötét mód</button>
+        </div>
+    </div>
+    
+    <nav>
+        <button id="sotetvilagos" onclick="openModal()">Válassz háttérszínt</button>
+        <div>
+            <a href="#">Előadók</a>
+            <a href="#">Zenestílusok</a>
+            <a href="#">webstílus</a>
+            <a href="#">Fiókod</a>
+
+        </div>
+        
+    </nav>
+
+    <fieldset class="lapok">
+        <legend>Punk</legend>
+        <input id="hatra1" type="button" class="gomb" value="<" style="margin-top: 20px;">
+        
+
+        <div class=valaszto id="egyes">
+            
+            <button class="zenek" id="1" onclick="window.location.href='zene1.html'" style="background-image: url(Machine\ Gun\ Kelly\ Papercuts.jpg)"></button>
+            <button class="zenek" id="2" onclick="window.location.href='zene2.html'" style="background-image: url(Green\ day\ American\ Idiot.jpg)"></button>
+            <button class="zenek" id="3" onclick="window.location.href='zene3.html'" style="background-image: url(Jack\ Kays\ Caffeine.jpg)"></button>
+            <button class="zenek" id="4" onclick="window.location.href='zene4.html'" style="background-image: url(KennyHoopla\ hollywood\ sucks.jpg)"></button>
+            <button class="zenek" id="5" onclick="window.location.href='zene4.html'" style="background-image: url(Green\ day\ the\ american\ dream\ is\ killing\ me.jpg)">teszt 1</button>
+            <button class="zenek" id="6" onclick="window.location.href='zene4.html'" style="background-image: url()">teszt 2</button>
+            <button class="zenek" id="7" onclick="window.location.href='zene4.html'" style="background-image: url()">teszt 3</button>
+            <button class="zenek" id="8" onclick="window.location.href='zene4.html'" style="background-image: url()">teszt 4</button>
+        </div>
+        <input id="elore1" type="button" class="gomb" value=">" style="margin-top: 20px;">
+    </fieldset>
+
+    <fieldset class="lapok" >
+        <legend>Grunge</legend>
+        <input id="hatra2" type="button" class="gomb" value="<">
+        
+        <div class=valaszto id="kettes">
+            <button class="zenek" id="9" onclick="window.location.href='zene9.html'" style="background-image: url(nirvana\ the\ man\ who\ sold\ the\ world.jpg)"></button>
+            <button class="zenek" id="10" onclick="window.location.href='zene10.html'" style="background-image: url(EKKSTACY\ bella.jpg)"></button>
+            <button class="zenek" id="11" onclick="window.location.href='zene11.html'" style="background-image: url(adamcrow\ genre\ hollow.jpg)"></button>
+            <button class="zenek" id="12" onclick="window.location.href='zene12.html'" style="background-image: url()">teszt 1</button>
+            <button class="zenek" id="13" onclick="window.location.href='zene4.html'" style="background-image: url()">teszt 2</button>
+            <button class="zenek" id="14" onclick="window.location.href='zene4.html'" style="background-image: url()">teszt 3</button>
+            <button class="zenek" id="15" onclick="window.location.href='zene4.html'" style="background-image: url()">teszt 4</button>
+            <button class="zenek" id="16" onclick="window.location.href='zene4.html'" style="background-image: url()">teszt 5</button>
+        </div> 
+        <input id="elore2" type="button" class="gomb" value=">">
+    </fieldset>
+
+    <fieldset class="lapok" >
+        <legend>Rap</legend>
+        <input id="hatra3" type="button" class="gomb" value="<">
+
+        <div class=valaszto id="harmas">
+            <button class="zenek" id="17" onclick="window.location.href='zene17.html'" style="background-image: url(The\ Kid\ LAROI\ Fck\ you\ goodbye.jpg)"></button>
+            <button class="zenek" id="18" onclick="window.location.href='zene18.html'" style="background-image: url(The\ Kid\ LAROI\ KIDS\ ARE\ GROWING\ UP.jpg)"></button>
+            <button class="zenek" id="19" onclick="window.location.href='zene19.html'" style="background-image: url(xxxtentacion\ feat\ blink-182\ its\ all\ fading\ to\ black.jpg)"></button>
+            <button class="zenek" id="20" onclick="window.location.href='zene20.html'" style="background-image: url(N.W.A\ straight\ outta\ compton.jpg)"></button>
+            <button class="zenek" id="21" onclick="window.location.href='zene4.html'" style="background-image: url(iann\ dior\ v12.jpg)">teszt 1</button>
+            <button class="zenek" id="22" onclick="window.location.href='zene4.html'" style="background-image: url(adamcrow\ lonelynights.jpg)">teszt 2</button>
+            <button class="zenek" id="23" onclick="window.location.href='zene4.html'" style="background-image: url(Lil\ Peep\ &\ Lil\ tracy\ dying\ out\ west.jpg)">teszt 3</button>
+            <button class="zenek" id="24" onclick="window.location.href='zene4.html'" style="background-image: url()">teszt 4</button>
+        </div>
+        <input id="elore3" type="button" class="gomb" value=">">
+    </fieldset>
+
+    <fieldset class="lapok" >
+        <legend>Pop</legend>
+        <input id="hatra4" type="button" class="gomb" value="<">
+
+        <div class=valaszto id="negyes">
+            <button class="zenek" id="25" onclick="window.location.href='zene17.html'" style="background-image: url(Djo\ basic\ being\ basic.jpg)"></button>
+            <button class="zenek" id="26" onclick="window.location.href='zene18.html'" style="background-image: url(Surf\ Curse\ freak.jpg)"></button>
+            <button class="zenek" id="27" onclick="window.location.href='zene19.html'" style="background-image: url(Post\ Malone\ Chemical.jpg)"></button>
+            <button class="zenek" id="28" onclick="window.location.href='zene20.html'" style="background-image: url(d4vd\ feel\ it.jpg)"></button>
+            <button class="zenek" id="29" onclick="window.location.href='zene4.html'" style="background-image: url(billie\ eilish\ birds\ of\ a\ feather.jpg)">teszt 1</button>
+            <button class="zenek" id="30" onclick="window.location.href='zene4.html'" style="background-image: url(barns\ courtney\ national\ treasure.jpg)">teszt 2</button>
+            <button class="zenek" id="31" onclick="window.location.href='zene4.html'" style="background-image: url()">teszt 3</button>
+            <button class="zenek" id="32" onclick="window.location.href='zene4.html'" style="background-image: url()">teszt 4</button>
+        </div>
+        <input id="elore4" type="button" class="gomb" value=">">
+    </fieldset>
+
+
+    <fieldset class="lapok" >
+        <legend>Metal</legend>
+        <input id="hatra5" type="button" class="gomb" value="<">
+        
+        <div class=valaszto id="otos">
+            <button class="zenek" id="32" onclick="window.location.href='zene17.html'" style="background-image: url(korn\ twist.jpg)"></button>
+            <button class="zenek" id="33" onclick="window.location.href='zene18.html'" style="background-image: url(Korn\ &\ Limp\ Bizkit\ all\ in\ the\ family.jpg)"></button>
+            <button class="zenek" id="34" onclick="window.location.href='zene19.html'" style="background-image: url(Limp\ Bizkit\ break\ stuff.jpg)"></button>
+            <button class="zenek" id="35" onclick="window.location.href='zene20.html'" style="background-image: url()">teszt 1</button>
+            <button class="zenek" id="36" onclick="window.location.href='zene4.html'" style="background-image: url()">teszt 2</button>
+            <button class="zenek" id="37" onclick="window.location.href='zene4.html'" style="background-image: url()">teszt 3</button>
+            <button class="zenek" id="38" onclick="window.location.href='zene4.html'" style="background-image: url()">teszt 4</button>
+            <button class="zenek" id="39" onclick="window.location.href='zene4.html'" style="background-image: url()">teszt 5</button>
+        </div> 
+        <input id="elore5" type="button" class="gomb" value=">">
+    </fieldset>  
+    
+    
+    <footer>2025 Minden jog fentartva!</footer>
+</body>
+</html>

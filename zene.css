@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+
+.fodiv{
+    width: 100%;
+    border: 2px black solid;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    background-color: black;
+}
+
+.zene{
+    text-align: center;
+    font-family: Arial;
+    font-size: 50px;
+    color: white;
+    height: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    font-family: 'Franklin Gothic Medium';
+    
+    
+}
+.lent{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-evenly;
+}
+.indito{
+    height: 700px;
+    margin-top: 0;
+    width: 23%;
+    background-color: rgb(255,255,255,0.4);;
+    border: 3px rgba(245, 245, 245, 0.779) solid;
+
+}
+.leiras{
+    color:aliceblue;
+    text-align: center;
+    margin-top: 0px;
+    width: 73%;
+    height: 700px;
+    border: 3px rgba(245, 245, 245, 0.779) solid;
+    border-radius: 20px;
+    background-color: rgb(255,255,255,0.4);
+}
