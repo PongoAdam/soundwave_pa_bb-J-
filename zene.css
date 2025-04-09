@@ -30,6 +30,7 @@ body{
     display: flex;
     align-items:flex-start;
     justify-content: space-evenly;
+    justify-items: center;
 }
 .indito{
     height: 700px;
@@ -48,4 +49,12 @@ body{
     border: 3px rgba(245, 245, 245, 0.779) solid;
     border-radius: 20px;
     background-color: rgb(255,255,255,0.4);
+}
+
+img {
+    height: 565px;
+}
+audio{
+    display: flex;
+    justify-items:left;
 }
