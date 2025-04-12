@@ -1,0 +1,313 @@
+body {
+    background-color: #1a152f; 
+    color: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    height: 60px;
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: 3px solid #202020; 
+    background-color: #4c1d95; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    text-align: center;
+    background-color: #5b21b6; 
+    height: 55px;
+    padding-top: 10px;
+}
+
+nav div {
+    width: 60%;
+    height: 35px;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+nav a {
+    background-color: #181b1a; 
+    color: #e6e6e6;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 2px;
+    border: none;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #242525;
+    color: white;
+}
+
+#sotetvilagos {
+    float: right;
+    margin-right: 15px;
+    background-color: #1c1f1e;
+    color: #ffffff;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+#sotetvilagos:hover {
+    background-color: #282c2c;
+    color: white;
+}
+
+
+body {
+    background-color: #1a152f; 
+    color: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+
+
+body.light-mode {
+    background-color: #f4f4f9; 
+    color: #333; 
+}
+
+
+body.dark-mode {
+    background-color: #1a152f;
+    color: #f3f3f3;
+}
+
+
+body.light-mode header {
+    background-color: #6a28b1;
+    color: #333; 
+}
+
+body.light-mode nav {
+    background-color: #6b3ea1; 
+}
+
+body.light-mode footer {
+    background-color: #6a28b1; 
+    color: #333;
+}
+
+body.light-mode .lapok {
+    background-color: #4e2a91; 
+}
+
+body.light-mode .zenek {
+    border: 2px solid #9c6eed; 
+}
+
+body.light-mode .modal-content {
+    background-color: #4e2a91; 
+    color: #2e2e2e;
+}
+
+
+body.dark-mode header {
+    background-color: #4c1d95; 
+    color: white;
+}
+
+body.dark-mode nav {
+    background-color: #5b21b6;
+}
+
+body.dark-mode footer {
+    background-color: #5b21b6;
+    color: white;
+}
+
+body.dark-mode .lapok {
+    background-color: #2a1b4a;
+}
+
+body.dark-mode .zenek {
+    border: 2px solid #7c3aed;
+}
+
+body.dark-mode .modal-content {
+    background-color: #2a1b4a;
+    color: #e2e8f0;
+}
+
+
+.lapok {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Impact, sans-serif;
+    border-radius: 10px;
+    border: 2px solid #343636;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #2a1b4a;
+}
+
+.valaszto {
+    background-color: #2a1b4a;
+    border: 1px solid #1d1f1f;
+    width: 80%;
+    height: 200px;
+    margin: 20px auto 40px auto;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+}
+
+.zenek {
+    width: 250px;
+    height: 180px;
+    border: 2px solid #7c3aed;
+    margin-top: 10px;
+    margin-left: 10px; /* Képek közötti távolság */
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.zenek:hover {
+    box-shadow: 0 0 15px #a78bfa;
+}
+
+.gomb {
+    width: 3%;
+    height: 200px;
+    font-size: 35px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    background-color: #4c1d95;
+    color: #1f2121;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #5b21b6;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+    color: white;
+}
+
+.dark-mode {
+    background-color: #1a152f;
+    color: white;
+}
+
+.light-mode {
+    background-color: #f3f3f3;
+    color: black;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #2a1b4a;
+    color: #e2e8f0;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #5eead4;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.modal button {
+    margin: 10px;
+    width: 30%;
+    height: 30px;
+    background-color: #5eead4;
+    border: none;
+    color: #1a152f;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 600px) {
+
+    nav a {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+    .gomb {
+        display: none;
+    }
+
+    .lapok {
+        padding-left: 5px;
+        gap: 10px;
+    }
+
+    .valaszto {
+        overflow-x: scroll;
+        display: flex;
+        justify-content: flex-start;
+        gap: 10px;
+        width: 570px;
+    }
+
+    .zenek {
+        width: 150px;
+        height: 150px;
+        border: none;
+    }
+
+    .hidden {
+        display: flex;
+        opacity: 1;
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+    }
+
+    .valaszto .zenek {
+        display: inline-block;
+        flex: 0 0 auto;
+    }
+}
